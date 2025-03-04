@@ -1,0 +1,53 @@
+.workout-planner {
+  height: 100%;
+  background: #f3f5f8;
+  border-radius: 10px;
+  padding: 10px 7px;
+
+  &--day {
+    font-size: 11px;
+    color: #728096;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3px;
+  }
+
+  .workout-planner-item {
+    background-color: #ffffff;
+    border: 1px solid #22242626;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
+  .workout-planner-item-action {
+    padding: 0 3px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .workout-name {
+    color: #5a57cb;
+    font-weight: 700;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 7px;
+    gap: 10px;
+    p.title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 0;
+      line-height: 1.5em;
+      max-height: 1.5em;
+    }
+  }
+}

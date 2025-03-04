@@ -1,0 +1,39 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+
+  &__label {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  &__field {
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.2s ease-in-out;
+    background-color: #ffffff;
+
+    &:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+
+    &--error {
+      border-color: red;
+    }
+  }
+
+  &__error {
+    display: flex;
+    font-size: 12px;
+    color: red;
+    margin: 0;
+  }
+}
